@@ -1,0 +1,36 @@
+﻿#header{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    height: 60px;
+    width: calc(100% - 250px);
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-select{
+    display: flex;
+}
+
+
+.header-owner{
+    position: absolute;
+    display: flex;
+    right: 24px;
+}
+.header-select .header-select-text{
+    padding: 16px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.header-owner-text{
+    font-weight: bold;
+}
+
+
+
+

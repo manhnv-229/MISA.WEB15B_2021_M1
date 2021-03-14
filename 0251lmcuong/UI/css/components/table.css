@@ -1,0 +1,22 @@
+
+table {
+    border-collapse: collapse;
+}
+
+table tr{
+    border-bottom: 1px solid #bbb;
+    height: 48px;
+}
+
+table thead th{
+    text-align: left;
+}
+
+th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th:first-child, th:last-child, td:first-child, td:last-child{
+    padding-left: 16px;
+}
