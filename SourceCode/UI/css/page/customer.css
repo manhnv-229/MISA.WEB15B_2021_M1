@@ -1,0 +1,44 @@
+.page-title {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.page-title .page-right {
+    position: absolute;
+    right: 24px;
+}
+
+.page-title .page-left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.toolbar {
+    margin-top: 16px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 42px;
+}
+
+.grid {
+    position: absolute;
+    right:  24px;
+    left: 24px;
+    bottom: 60px;
+    top: 128px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 10px;
+    border-bottom: 1px solid #000;
+}

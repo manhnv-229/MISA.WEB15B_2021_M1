@@ -1,0 +1,88 @@
+﻿.navbar {
+    width: 226px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+    .navbar .logo-box {
+        display: flex;
+        width: 100%;
+        height: 48px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+        .navbar .logo-box .toggle {
+            margin-left: 16px;
+            width: 24px;
+            height: 24px;
+            background-image: url('../../content/img/toggle.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            flex-shrink: 0;
+        }
+
+        .navbar .logo-box .logo-page {
+            margin-left: 10px;
+            width: 100%;
+            height: 24px;
+            background-image: url('../../content/img/cukcuk-logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+            flex-shrink: 0;
+        }
+
+
+    .navbar .navbar-content {
+        width: 100%;
+    }
+
+    /*Navbar items*/
+    .navbar .navbar-item {
+        display: flex;
+        align-items: center;
+        height: 44px;
+        cursor: pointer;
+        text-decoration: 0;
+    }
+
+        .navbar .navbar-item:focus {
+            background-color: #019160;
+            color: #fff;
+        }
+
+        .navbar .navbar-item:hover {
+            background-color: #e5e5e5;
+            color: #000;
+        }
+
+    .navbar .navbar-item-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 16px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .navbar .navbar-item-text {
+        margin-left: 10px;
+    }
+
+.icon-dashboard {
+    background-image: url('../../content/icon/dashboard.png');
+}
+
+.icon-report {
+    background-image: url('../../content/icon/report.png');
+}
+
+.icon-dictionary-employee {
+    background-image: url('../../content/icon/dic-employee.png');
+}
+
+.icon-setting {
+    background-image: url('../../content/icon/setting.png');
+}

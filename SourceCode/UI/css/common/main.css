@@ -1,0 +1,38 @@
+﻿@import url('../components/button.css');
+@import url('../components/combobox.css');
+@import url('../components/field-input.css');
+
+body {
+    margin: 0px;
+    font-family: GoogleSans-Regular;
+    font-size: 13px;
+}
+
+.bg-primary {
+    background-color: #01B075;
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../../content/font/GoogleSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Medium';
+    src: url('../../content/font/GoogleSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../../content/font/GoogleSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url('../../content/font/GoogleSans-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-BoldItalic';
+    src: url('../../content/font/GoogleSans-BoldItalic.otf') format('opentype');
+}
