@@ -1,35 +1,27 @@
-.icon-arrow{
-    background-image: url('../../content/icon/angle.svg');
+.icon{
     background-repeat: no-repeat;
     background-position-y:center;
     background-position-x: center;
-    background-size: 12px;
-    padding-left: 12px;
+    background-size: contain;
+}
+
+.icon-arrow{
+    background-image: url('../../content/icon/angle.svg');
+    width: 12px;
 }
 
 .icon-option{
     background-image: url('../../content/icon/option.png');
-    background-repeat: no-repeat;
-    background-position-y:center;
-    background-position-x: center;
-    background-size: 16px;
-    padding-left: 32px;
+    width: 16px;
 }
 
 .icon-ava{
     background-image: url('../../content/icon/avatar-default.png');
-    background-repeat: no-repeat;
-    background-position-y:center;
-    background-position-x: center;
-    background-size: 32px;
-    padding-left: 48px;
+    width: 24px;
 }
 
 .icon-add{
     background-image: url('../../content/icon/add.png');
-    background-repeat: no-repeat;
-    background-position-y:center;
-    background-position-x: center;
-    background-size: 16px;
     padding-left: 16px;
 }
+

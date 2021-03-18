@@ -6,15 +6,17 @@ table {
 table tr{
     border-bottom: 1px solid #bbb;
     height: 48px;
+    /* height: 148px; */
 }
 
 table thead th{
-    text-align: left;
+    
 }
 
 th,td{
     padding-left: 10px;
     padding-right: 10px;
+    text-align: left;
 }
 
 th:first-child, th:last-child, td:first-child, td:last-child{

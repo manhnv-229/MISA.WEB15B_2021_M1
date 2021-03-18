@@ -1,35 +1,40 @@
-﻿#header{
+#header{
     background-color: #fff;
-    border: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
     position: absolute;
     top: 0px;
     left: 200px;
-    height: 60px;
-    width: calc(100% - 250px);
-    padding-left: 24px;
-    padding-right: 24px;
+    height: 48px;
+    width: calc(100% - 234px);
+    padding-left: 16px;
+    padding-right: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header-select{
-    display: flex;
-}
+    .header-select{
+        display: flex;
+    }
+        .header-select .header-select-text{
+            padding: 16px;
+            padding-left: 0;
+            font-weight: bold;
+            padding-right: 10px;
+            margin: 0;
+        }
 
-
-.header-owner{
-    position: absolute;
-    display: flex;
-    right: 24px;
-}
-.header-select .header-select-text{
-    padding: 16px;
-    font-weight: bold;
-    padding-right: 10px;
-}
-.header-owner-text{
-    font-weight: bold;
-}
+    .header-owner{
+        position: absolute;
+        display: flex;
+        right: 24px;
+    }
+        .header-owner-text{
+            font-weight: bold;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    
 
 
 

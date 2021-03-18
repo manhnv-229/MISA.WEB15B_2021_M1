@@ -1,27 +1,59 @@
-﻿.content-customer{
+.content-customer{
     display: flex;
     align-items: center;
     height: 40px;
     justify-content: space-between;
 }
-.content-customer .content-customer-title{
-    font-size: 24px;
-    font-weight:bold;
-}
-.content-customer .content-customer-btn{
-    position: absolute;
-    display: flex;
-    right: 24px;
-}
+    .content-customer .content-customer-title{
+        font-size: 18px;
+        font-weight:bold;
+        margin: 0;
+    }
+    .content-customer .content-customer-btn{
+        position: absolute;
+        display: flex;
+        right: 24px;
+    }
 
+        .content-customer .content-customer-btn .content-customer-btn-text{
+            padding-left: 40px;
+            padding-right: 16px;
+            background-image: url("../../content/icon/add.png");
+            background-repeat: no-repeat;
+            background-size: 16px;
+            background-position-y: center;
+            background-position-x: 16px;
+        }
 
 .content-input{
-    margin-top: 16px;
+    margin-top: 8px;
     display: flex;
     width: 100%;
     align-items: center;
-    height: 42px;
+    height: 40px;
 }
+    .content-input .btn-refresh {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 24px;
+        border: 1px solid #bbbbbb;
+        background-color: #ffffff;
+        cursor: pointer;
+        outline: none;
+        border-radius: 4px;
+        background-image: url('../../content/icon/refresh.png');
+        background-repeat:no-repeat;
+        background-size: auto;
+        background-position: center;
+    }
+
+    .content-input .btn-refresh:hover {
+        background-color: #fff;
+        border: 1px solid #01B075;
+    }
+
+
 
 .content-grid{
     position: absolute;
@@ -29,11 +61,9 @@
     left: 24px;
     bottom: 60px;
     top: 128px;
-    width: 100%;
+    width: 95%;
 }
 .content-grid .content-grid-table{
-    width: fit-content;
-    width: calc(100% - 50px);
     border: 0;
 }
 

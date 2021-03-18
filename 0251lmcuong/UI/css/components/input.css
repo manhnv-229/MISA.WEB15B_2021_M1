@@ -1,11 +1,11 @@
-input {
-    height: 40px;
-    width: 220px;
+.input-search {
     border: 1px solid #bbbbbb;
-    padding-left: 16px;
-    padding-right: 16px;
-    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
     outline: none;
+    padding-left: 30px;
+    font-size: 12px;
 }
 
 input:hover {
@@ -15,7 +15,10 @@ input:hover {
     background-image: url('../../content/icon/search.png');
     background-repeat: no-repeat;
     background-position-y:center;
-    background-position-x: 16px;
-    background-size: 20px;
-    padding-left: 40px;
+    background-position-x: 10px;
+    background-size: 16px;
+}
+.input-search{
+    height: 32px;
+    width: 170px;
 }
