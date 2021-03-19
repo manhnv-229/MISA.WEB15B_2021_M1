@@ -1,0 +1,10 @@
+#footer{
+    position: absolute;
+    left:200px;
+    bottom: 0px;
+    height: 56px;
+    width: calc(100% - 234px);
+    padding: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+}

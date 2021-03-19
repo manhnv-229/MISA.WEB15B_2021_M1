@@ -4,9 +4,9 @@
     top: 48px;
     left: 200px;
     width: calc(100% - 234px);
+    height: calc(100% - 77px);
     padding: 16px;
     border: 1px solid #dedede;
-    height: -webkit-fill-available;
 }
     
 

@@ -61,9 +61,19 @@
     left: 24px;
     bottom: 60px;
     top: 128px;
-    width: 95%;
+    overflow-y:auto;
+    height: calc(100% - 192px);
 }
 .content-grid .content-grid-table{
     border: 0;
 }
 
+.hiden{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

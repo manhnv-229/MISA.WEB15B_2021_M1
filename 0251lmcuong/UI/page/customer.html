@@ -7,6 +7,7 @@
     <link href="../css/layout/content.css" rel="stylesheet" />
     <link href="../css/layout/header.css" rel="stylesheet" />
     <link href="../css/layout/navbar.css" rel="stylesheet" />
+    <link href="../css/layout/footer.css" rel="stylesheet" />
     <link href="../css/common.css" rel="stylesheet" />
 
 </head>
@@ -161,5 +162,131 @@
         </div>
     </div>
     <!--End Content-->
+    <!-- Footer -->
+    <div id="footer">
+        <div class="subfooter">
+            <div class="sum-of-person">Hiển thị 1-10/1000 Khách hàng</div>
+            <div class="navigation">
+                <ul class="list-navigation">
+                    <li>
+                        <a class="first-page action-page" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="prev-page action-page" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="page" href="#">1</a>
+                    </li>
+                    <li>
+                        <a class="page" href="#">2</a>
+                    </li>
+                    <li>
+                        <a class="page" href="#">3</a>
+                    </li>
+                    <li>
+                        <a class="page" href="#">4</a>
+                    </li>
+                    <li>
+                        <a class="next-page action-page" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="last-page action-page" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="display-person">10 Khách hàng/trang</div>
+        </div>
+    </div>
+    
+    <!-- End Footer -->
+
+    <!-- Hiden -->
+    <div class="hiden">
+
+    </div>
+    <!-- End Hiden -->
+
+    <!-- Add Person -->
+    <div class="dialog">
+        <div class="icon icon-cancel"></div>
+        <form action="" class="infor-customer">
+            <h3 class="title">THÔNG TIN KHÁCH HÀNG</h3>
+            <div class="sub-infor">
+                <div class="element-first">
+                    <div class="input-image">
+                        <div class="field-input">
+                            <input class="input-image-file" type="file" >
+                            <label class="label" for="file">Vui lòng chọn ảnh có định dạng <span class="bold">.jpg, .jpeg, .png, .git.</span></label>
+                        </div>
+                    </div>
+                    <div class="input-column">
+                        <div class="field-input">
+                            <label class="label" for="">Mã khách hàng(<span class="text-red">*</span>)</label>
+                            <input class="input" type="text" placeholder="" required >
+                        </div>
+                        <div class="field-input">
+                            <label class="label" for="">Mã thẻ thành viên</label>
+                            <input class="input" type="text" placeholder="">
+                        </div>
+                        <div class="field-input">
+                            <label class="label" for="">Ngày sinh</label>
+                            <input class="input date-input" type="date" placeholder="">
+                        </div>
+                    </div>
+                    <div class="input-column">
+                        <div class="field-input">
+                            <label class="label" for="">Họ tên(<span class="text-red">*</span>)</label>
+                            <input class="input" type="text" placeholder="" required>
+                        </div>
+                        <div class="field-input">
+                            <label class="label" for="">Nhóm khách hàng</label>
+                            <input class="input" type="select" placeholder="">
+                        </div>
+                        <div class="field-input">
+                            <label class="label" for="">Giới tính</label>
+                            <input class="input" type="text" placeholder="">
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <div class="element">
+                    <div class="field-input">
+                        <label class="label" for="">Email</label>
+                        <input class="input email-input" type="email" placeholder="">
+                    </div>
+                    <div class="field-input">
+                        <label class="label" for="">Số điện thoại(<span class="text-red">*</span>)</label>
+                        <input class="input" type="text" placeholder="" required>
+                    </div>
+                </div>
+                <div class="element">
+                    <div class="field-input">
+                        <label class="label" for="">Tên công ty</label>
+                        <input class="input company-input" type="text" placeholder="">
+                    </div>
+                    <div class="field-input">
+                        <label class="label" for="">Mã số thuế</label>
+                        <input class="input" type="text" placeholder="Mã số thuế của công ty">
+                    </div>
+                </div>
+                <div class="element">
+                    <div class="field-input">
+                        <label class="label " for="">Địa chỉ</label>
+                        <input class="input address-input" type="text" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="save">
+                <input class="btn btn-cancel" type="button" value="Hủy"/>
+                <input class="btn btn-save" type="submit" value="Lưu"/>
+            </div>
+        </form>
+        
+    </div>
+    <!-- End Add Person -->
+    
+    <script src="../js/page/customer.js"></script>
 </body>
 </html>

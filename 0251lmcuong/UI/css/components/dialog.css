@@ -1,0 +1,151 @@
+/* temperlate field input */
+.field-input{
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 5px;
+}
+    .field-input .label{
+        display: block;
+        font-size: 13px;
+        font-family: GoogleSans-Medium;
+        padding-bottom: 4px;
+    }
+    .field-input .input{
+        width: fit-content;
+        outline: none;
+        border: 1px solid #bbbbbb;
+        border-radius: 4px;
+        height: 40px;
+        /* font-size: 11px; */
+        font-size: 13px;
+        font-family: GoogleSans-Medium;
+        padding-left: 16px;
+    }
+    .field-input .input:focus{
+        border-color: #019160;
+        font-size: 13px;
+    }
+    .field-input .input::placeholder {
+        font-size: 11px;
+        color: #bbbbbb;
+    }
+
+    .field-input .input:focus:required {
+        border-color: #FF4747;
+    }
+
+
+    
+.dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    background-color: #fff;
+}
+    .dialog .icon-cancel{
+        
+    }
+    .dialog .infor-customer{
+        
+    }
+        .infor-customer .title,
+        .infor-customer .sub-infor,
+        .infor-customer .save{
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        .infor-customer .title{
+            margin-top: 24px;
+            font-size: 20px;
+        }
+        .infor-customer .sub-infor{
+            margin-bottom: 16px;
+        }
+            .infor-customer .sub-infor .element-first{
+                display: flex;
+            }
+                .sub-infor .element-first .input-image{
+                    flex-grow: 1;
+                    width: 206px;
+                    text-align: center;
+                    height: 194px;
+                }
+                    .sub-infor .element-first .input-image .input-image-file{
+                        background-image: url("../../content/img/default-avatar.jpg");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        color: transparent;
+                        outline: none;
+                        height: 162px;
+                        border: 1px solid #bbbbbb;
+                        cursor: pointer;
+                        background-position: center;
+                        background-size: 162px;
+                        border-radius: 50%;
+                    }
+                    .sub-infor .element-first .input-image .input-image-file:focus{
+                        color: transparent;
+                        border: 1px solid #bbbbbb;
+                    }
+                    .sub-infor .element-first .input-image .input-image-file:hover{
+                        color: transparent;
+                        border: 1px solid #bbbbbb;
+                    }
+                    .sub-infor .element-first .input-image .input-image-file:active{
+                        color: transparent;
+                        border: 1px solid #bbbbbb;
+                    }
+                    .sub-infor .element-first .input-image .input-image-file::-webkit-file-upload-button{
+                        visibility: hidden;
+                    }
+                .sub-infor .element-first .input-column{
+                    flex-grow: 1; 
+                }
+                    .sub-infor .element-first .input-column .field-input{
+
+                    }
+            .infor-customer .sub-infor .element{
+                display: flex;
+            }
+                .infor-customer .sub-infor .element .field-input{
+                    
+                }
+                .infor-customer .sub-infor .element .field-input:first-child{
+                    flex-grow: 2;
+                }
+            
+        .infor-customer .save{
+            background-color: #bbbbbb;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 60px;
+        }
+
+            .infor-customer .save .btn-save, 
+            .infor-customer .save .btn-cancel{
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            .infor-customer .save .btn-cancel{
+                background-color: transparent;   
+                color: black;
+            }
+            .infor-customer .save .btn-cancel:hover{
+                background-color: #019160;
+            }
+                .field-input .date-input{
+                    width: 176px;
+                }
+                .field-input .email-input{            
+                    width: 383px;
+                }
+                .field-input .company-input{
+                    width: 383px;           
+                }
+                .field-input .address-input{           
+                    width: 589px;
+                }
