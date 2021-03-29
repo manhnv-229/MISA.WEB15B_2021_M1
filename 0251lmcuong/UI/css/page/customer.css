@@ -52,7 +52,16 @@
         background-color: #fff;
         border: 1px solid #01B075;
     }
-
+    .content-input  .input-delete {
+        position: absolute;
+        right: 80px;
+        background-color: darkred;
+    }
+    .content-input  .input-delete:hover {
+        position: absolute;
+        right: 80px;
+        background-color: brown;
+    }
 
 
 .content-grid{

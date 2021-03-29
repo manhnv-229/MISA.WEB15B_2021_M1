@@ -1,9 +1,9 @@
 #footer{
     position: absolute;
-    left:200px;
-    bottom: 0px;
+    left:0px;
+    bottom: 10px;
     height: 56px;
-    width: calc(100% - 234px);
+    width: calc(100% - 34px);
     padding: 16px;
     padding-top: 0;
     padding-bottom: 0;

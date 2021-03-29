@@ -1,0 +1,77 @@
+
+
+
+.subfooter{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 5px solid  #dedede;
+}
+
+    .subfooter .sum-of-person{
+        padding-left: 16px;
+    }
+
+
+    .subfooter .navigation{
+        
+    }
+
+        .subfooter .navigation .list-navigation{
+            display: flex;
+            list-style-type: none;
+        }
+            .subfooter .navigation .action-page,
+            .subfooter .navigation .page {
+                display: block;
+                width: 32px;
+                height: 32px;
+                border-radius: 5px;
+                text-align: center;
+                line-height: 32px;
+                margin-left: 5px;
+                margin-right: 5px;
+                text-decoration: none;
+                color: black;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px;
+            }
+
+            .subfooter .navigation .first-page {
+                background-image: url('../../assets/icon/btn-firstpage.svg');
+            }
+    
+            .subfooter .navigation .last-page {
+                background-image: url('../../assets/icon/btn-lastpage.svg');
+            }
+    
+            .subfooter .navigation .next-page {
+                background-image: url('../../assets/icon/btn-next-page.svg');
+            }
+    
+            .subfooter .navigation .prev-page {
+                background-image: url('../../assets/icon/btn-prev-page.svg');
+            }
+
+            .subfooter .navigation .prev-page{
+
+            }
+
+            .subfooter .navigation .page{
+                border-radius: 50%;
+                border: 1px solid #dedede;
+            }
+
+            .subfooter .navigation .page:hover{
+                background-color: #dedede;
+            }
+            .subfooter .navigation .page:focus{
+                background-color: #019160;;
+            }
+
+    .subfooter .display-person{
+        padding-right: 16px;
+    }

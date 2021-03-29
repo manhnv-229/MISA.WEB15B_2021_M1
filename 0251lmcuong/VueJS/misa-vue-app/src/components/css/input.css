@@ -1,0 +1,24 @@
+.input-search {
+    border: 1px solid #bbbbbb;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+input:hover {
+    border-color: #019160;
+}
+.input-search {
+    background-image: url('../../assets/icon/search.png');
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: 10px;
+    background-size: 16px;
+}
+.input-search{
+    height: 32px;
+    width: 170px;
+}
